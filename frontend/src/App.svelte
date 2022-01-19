@@ -9,7 +9,7 @@
 
 	import wretch from "wretch";
 
-	const API = wretch().url("http://localhost:3000/api");
+	const API = wretch().url("/api");
 
 	// songs to display in the left list
 	let songs = [];
